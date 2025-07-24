@@ -47,7 +47,7 @@ Pkg.add("IJulia")
 ```
 This will install the IJulia package and, if Jupyter is not already installed on your system, it will prompt to install it via Conda.
 
-3. After installation, you can launch Jupyter Notebook directly from Julia:
+3. After installation, you can launch Jupyter Notebook directly from Julia or in your IDE (e.g., VSCode):
 
 ```julia
 using IJulia
