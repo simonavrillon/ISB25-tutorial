@@ -5,9 +5,9 @@ This repository contains a tutorial presented at ISB 2025 demonstrating how to p
 
 📦 Requirements
 
-Julia
-Python (with the package MNE)
-Jupyter notebook
+- Julia
+- Python (with the package MNE)
+- Jupyter notebook
 
 🔧 Installation
 
@@ -24,6 +24,7 @@ julia --version
 julia
 
 In the Julia REPL, run the following:
+
 using Pkg
 Pkg.add("IJulia")
 
