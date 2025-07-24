@@ -7,8 +7,26 @@ This repository contains a tutorial presented at ISB 2025 demonstrating how to p
 
 Julia
 Python (with the package MNE)
+Jupyter notebook
 
 🔧 Installation
+
+1. Install Julia
+Download and install Julia from the official website. Add Julia to your system's PATH if needed.
+
+Verify the installation:
+
+julia --version
+
+2. Launch Julia by typing:
+
+julia
+
+In the Julia REPL, run the following:
+using Pkg
+Pkg.add("IJulia")
+
+This will install the IJulia package and, if Jupyter is not already installed on your system, it will prompt to install it via Conda.
 
 Open the notebook and follow the instructions. You can then run the first cell of the notebook to install all the packages for Julia.
 
