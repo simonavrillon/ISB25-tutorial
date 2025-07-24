@@ -1,7 +1,7 @@
 # ISB25-tutorial
 Author: Simon Avrillon – Nantes Université
 
-This repository contains a tutorial presented at ISB 2025 demonstrating how to perform EMG signal decomposition using Julia. It includes data preprocessing, decomposition using convolutive blind source separation, and result visualisation.
+This repository contains a tutorial presented at ISB 2025 demonstrating how to perform EMG signal decomposition with Julia. It includes data preprocessing, decomposition using convolutive blind source separation, and result visualisation.
 
 ## 📦 Requirements
 
@@ -47,7 +47,7 @@ Pkg.add("IJulia")
 ```
 This will install the IJulia package and, if Jupyter is not already installed on your system, it will prompt to install it via Conda.
 
-3. After installation, you can launch Jupyter Notebook directly from Julia or in your IDE (e.g., VSCode):
+3. After installation, you can launch Jupyter Notebook directly from Julia or open the notebook in your IDE (e.g., VSCode):
 
 ```julia
 using IJulia
