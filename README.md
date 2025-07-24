@@ -10,6 +10,16 @@ This repository contains a tutorial presented at ISB 2025 demonstrating how to p
 - Jupyter notebook
 
 ## 🔧 Installation
+0. Setup the project locally
+
+Open the terminal and clone this repository:
+
+```bash
+git clone https://github.com/simonavrillon/ISB25-tutorial.git
+```
+```bash
+cd ISB25-tutorial
+```
 
 1. Install Julia
 
@@ -17,25 +27,34 @@ Download and install Julia from the [official Julia website](https://julialang.o
 
 Verify the installation in your terminal:
 
-<pre>julia --version </pre>
+```bash
+julia --version
+```
 
 2. Launch Julia by typing:
 
-<pre>julia </pre>
+```bash
+julia
+```
 
 In the Julia REPL, run the following:
 
-<pre>using Pkg
-
-Pkg.add("IJulia") </pre>
-
+```julia
+using Pkg
+```
+```julia
+Pkg.add("IJulia")
+```
 This will install the IJulia package and, if Jupyter is not already installed on your system, it will prompt to install it via Conda.
 
 3. After installation, you can launch Jupyter Notebook directly from Julia:
 
-<pre>using IJulia
-
-notebook() </pre>
+```julia
+using IJulia
+```
+```julia
+notebook()
+```
 
 Open the notebook and follow the instructions. You can then run the first cell of the notebook to install all the packages for Julia.
 
