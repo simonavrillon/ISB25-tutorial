@@ -12,6 +12,7 @@ Jupyter notebook
 🔧 Installation
 
 1. Install Julia
+
 Download and install Julia from the official website. Add Julia to your system's PATH if needed.
 
 Verify the installation:
