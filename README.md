@@ -79,6 +79,6 @@ Download the following five files from the dataset:
 The tutorial walks through:
 
 - Loading and filtering raw EMG signals
-- Visualizing EMG channels
+- Visualising EMG channels
 - Applying convolutive blind source separation for EMG decomposition
 - Post-processing and visualisation of motor unit spike trains
