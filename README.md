@@ -47,7 +47,7 @@ Pkg.add("IJulia")
 ```
 This will install the IJulia package and, if Jupyter is not already installed on your system, it will prompt to install it via Conda.
 
-3. After installation, you can launch Jupyter Notebook directly from Julia or open the notebook in your IDE (e.g., VSCode):
+3. After installation, you can launch Jupyter Notebook directly from Julia:
 
 ```julia
 using IJulia
@@ -56,7 +56,9 @@ using IJulia
 notebook()
 ```
 
-Open the notebook and follow the instructions. You can then run the first cell of the notebook to install all the packages for Julia.
+Alternatively, open the notebook in your IDE with the extensions Julia, Python, and Jupyter installed.
+
+Open the notebook and follow the instructions. You can then run the first cell of the notebook to install all the packages for Julia. It is recommended to install all packages before starting the tutorial, as the installation may take longer than 10 minutes.
 
 ## 📂 Download the Dataset (BIDS Format)
 
