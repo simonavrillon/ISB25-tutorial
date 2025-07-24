@@ -56,7 +56,7 @@ using IJulia
 notebook()
 ```
 
-Alternatively, open the notebook in your IDE with the extensions Julia, Python, and Jupyter installed.
+Alternatively, open the notebook in VScode with the extensions Julia, Python, and Jupyter installed.
 
 Open the notebook and follow the instructions. You can then run the first cell of the notebook to install all the packages for Julia. It is recommended to install all packages before starting the tutorial, as the installation may take longer than 10 minutes.
 
