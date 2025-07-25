@@ -66,7 +66,7 @@ To run the tutorial, you'll need to manually download five files corresponding t
 
 🔗 Dataset DOI: https://doi.org/10.7910/DVN/L9OQY7
 
-Download the following five files from the dataset:
+If you download the data directly from the dataset, thake the following five files:
 
 - sub-01_task-isometric30percentmvc_run-01_channels.tsv
 - sub-01_task-isometric30percentmvc_run-01_coordsystem.json
