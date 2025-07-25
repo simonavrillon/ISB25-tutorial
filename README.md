@@ -8,6 +8,7 @@ This repository contains a tutorial presented at ISB 2025 demonstrating how to p
 - Julia
 - Python (with the package MNE)
 - Jupyter notebook
+- (Optional) VScode with Julia, Python, and Jupyter extensions installed
 
 ## 🔧 Installation
 0. Setup the project locally
@@ -47,7 +48,7 @@ Pkg.add("IJulia")
 ```
 This will install the IJulia package and, if Jupyter is not already installed on your system, it will prompt to install it via Conda.
 
-3. After installation, you can launch Jupyter Notebook directly from Julia:
+3. After installation, you can open the notebook in VScode with the extensions Julia, Python, and Jupyter installed (recommended). Alternatively, launch Jupyter Notebook directly from Julia:
 
 ```julia
 using IJulia
@@ -55,9 +56,6 @@ using IJulia
 ```julia
 notebook()
 ```
-
-Alternatively, open the notebook in VScode with the extensions Julia, Python, and Jupyter installed (recommended)
-
 Open the notebook and follow the instructions. You can then run the first cell of the notebook to install all the packages for Julia. It is recommended to install all packages before starting the tutorial, as the installation may take longer than 10 minutes.
 
 ## 📂 Download the Dataset (BIDS Format)
