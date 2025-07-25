@@ -63,6 +63,7 @@ Open the notebook and follow the instructions. You can then run the first cell o
 To run the tutorial, you'll need to manually download five files corresponding to a single EMG contraction, provided in BIDS format:
 
 🔗 Temporary folder with the data: https://download.drive.shadow.tech/s/4SjitaLBHEKKmBY
+
 🔗 Dataset DOI: https://doi.org/10.7910/DVN/L9OQY7
 
 Download the following five files from the dataset:
